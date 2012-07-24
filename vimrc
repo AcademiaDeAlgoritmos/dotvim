@@ -1,3 +1,12 @@
+let g:user_zen_settings = {
+\  'indentation' : '  ',
+\  'haml' : {
+\    'extends' : 'html',
+\  },
+\}
+
+autocmd! BufRead,BufNewFile *.less set filetype=less
+
 " do not use vi compatibility mode. must come first because it changes other options.
 set nocompatible
 
