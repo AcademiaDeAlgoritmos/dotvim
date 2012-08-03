@@ -1,8 +1,5 @@
 let g:user_zen_settings = {
 \  'indentation' : '  ',
-\  'haml' : {
-\    'extends' : 'html',
-\  },
 \}
 
 autocmd! BufRead,BufNewFile *.less set filetype=less
